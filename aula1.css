@@ -1,0 +1,23 @@
+
+h1{
+    color:red;
+}
+
+p{
+    color:blue;
+    font-size: 16px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-left: 4px outset yellow;
+    border-top: 4px dashed green;
+    border-bottom: 4px dotted red;
+    border-right: 4px outset lightgray;
+    border-radius: 10px;
+
+}
+img:hover{
+    border: 4px solid purple;
+    transition: 0.4s;
+}
