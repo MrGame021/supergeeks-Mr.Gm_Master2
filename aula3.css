@@ -1,0 +1,43 @@
+body{
+    margin: 0;;
+}
+body > div{
+    background-color: blueviolet;
+    color: gold;
+    border: 10px solid transparent;
+
+}
+div > div{
+    background-color: gold;
+    color: blueviolet;
+    border: 2px solid transparent;
+}
+.capivara{
+    height: 150px;
+    border-left: 4px solid transparent;
+    
+}
+.albina{
+    height: 75px;
+    border-left: 4px solid transparent;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+#sozinha{
+    border: 5px dashed blue;
+}
+#junta{
+    border: 5px dashed gray;
+}
+.fundo{
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.albina:hover{
+    height: 120px;
+}
