@@ -1,0 +1,47 @@
+.cards{
+    border: 5px dashed red;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: white;
+}
+.cards > div{
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.dumbster{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+.dumbster > img{
+    width: 400px;
+}
+
+
+
+@media (max-width: 950px){
+    .cards > div{
+        background-color: red;
+        height: 100px;
+        width: 100px;
+    }
+}
+@media (max-width: 450px){
+    .cards{
+        background-color: blue;
+        flex-direction: column;
+    }
+    .cards > div{
+        height: 150px;
+        width: 150px;
+    }
+}

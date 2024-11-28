@@ -1,0 +1,80 @@
+main{
+    div{
+        gap: 20px;
+        width: 90%;
+        display: flex;
+        align-content: space-evenly;
+        
+        .cardss{
+            flex-direction: column;
+            border: 5px solid blue;
+
+            div{
+                display: flex;
+                flex-direction: start;
+                align-items: center;
+                width: 400px;
+                border: 5px solid #5899b97e;
+                border-radius: 16px;
+                padding: 10px;
+                gap: 15px;
+                img{
+                    height: 120px;
+                    width: 120px;
+                }
+                label{
+                    width: 250px;
+                    
+
+                }
+                #preco{
+                    color: #be2e2eda;
+                    font-weight: bold;
+                }
+            }
+        }
+        .custoGeral{
+            display: flex;
+            flex-direction: column;
+            padding-inline: 40px;
+            border: 5px solid #5899b9d2;
+            border-radius: 16px;
+            background-color: #6cd7fdad;
+            width: 50%;
+            div{
+                display: flex;
+                justify-content: space-between;
+                #tabela2{
+                    color: #be2e2eda;
+                    font-weight: bold;
+                    width: 25%;
+                }
+            }
+            
+            h3{
+                display: flex;
+                justify-content: center;
+                font-size: 40px;
+            }
+            a{
+                display: flex;
+                justify-content: center;
+                align-self: center;
+                margin-top: 80px;
+                padding: 10px;
+                width: 150px;
+                border: 5px solid #5899b9d2;
+                border-radius: 12px;
+                background-color: #9edcf3b7;
+                font-family: monospace;
+                text-decoration: none;
+                color: #ebebeb;
+            }
+            a:hover{
+                transition: 0.09s;
+                background-color: #86d1eccb;
+            }
+        }
+       
+    }
+}
