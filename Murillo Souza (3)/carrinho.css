@@ -23,7 +23,6 @@ main{
                 label{
                     width: 600px;
                     font-size: 25px;
-
                 }
                 #preco{
                     color: #be2e2eda;
@@ -72,7 +71,6 @@ main{
                 background-color: #86d1eccb;
             }
         }
-       
     }
 }
 @media (max-width: 1650px){
@@ -109,7 +107,6 @@ main{
         label{
             font-size: 23px;
         }
-        
     }
 }
 @media (max-width: 1530px){
@@ -128,21 +125,22 @@ main{
             font-size: 19px;
         }
         margin-top: -20px;
-
     }
-    main > div > .cardss > div{
-
-        label{
-            font-size: 16px;
-        }
-        #preco{
-            font-size: 16px;
-        }
-        img{
-            width: 100px;
-            height: 100px;
+    main > div{
+        .cardss > div{
+            label{
+                font-size: 16px;
+            }
+            #preco{
+                font-size: 16px;
+            }
+            img{
+                width: 100px;
+                height: 100px;
+            }
+            a{
+                
+            }
         }
     }
-
-    
 }
